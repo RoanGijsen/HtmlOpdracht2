@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+
+</head>
+
+
+<body>
+
+Typ een woord <input id="TypIets" type="text"/>
+<button id="checkE" onclick="checkE()">Gedag</button>
+
+</body>
+</html>
+
+<script>
+function checkE()
+{
+    var h = document.getElementById('TypIets').value;
+    for (i = 0; i < h.length; i++)
+    {
+        if (h[i] == "e")
+        {
+            alert("Er zit een e in");
+        }
+    }
+}
+
+</script>
